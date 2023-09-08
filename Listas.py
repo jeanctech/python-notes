@@ -1,4 +1,4 @@
-#Lista en Python
+#Listas en Python
 
 texto = ["uno", "uno", "dos"] #Lista de Texto
 
