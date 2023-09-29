@@ -7,9 +7,9 @@
 
 ## What is Python?
 
-<a href="https://www.python.org/"><img  src="https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png"  style="height: 50%; width:50%;"><a>
-
 Python is a high-level interpreted programming language whose philosophy emphasizes the readability of its code. It is used to develop applications of all types, for example - Instagram, Netflix, Spotify, Panda3D, among others
+
+Python is an interpreted language, which means it directly executes code line by line. If there are errors in the program code, its execution stops. This way, programmers can find errors in the code quickly.
 
 ## Index
 * [Introduction](https://youtu.be/Kp4Mvapo5kc)
@@ -28,7 +28,6 @@ Python is a high-level interpreted programming language whose philosophy emphasi
 * [Lesson 13 - Classes](https://youtu.be/Kp4Mvapo5kc?t=29327)
 * [Lesson 14 - Exceptions](https://youtu.be/Kp4Mvapo5kc?t=32030)
 * [Lesson 15 - Modules](https://youtu.be/Kp4Mvapo5kc?t=34583)
-* [Next steps](https://youtu.be/Kp4Mvapo5kc?t=36390)
 * [Lesson 16 - Dates](https://youtu.be/TbcEqkabAWU?t=202)
 * [Lesson 17 - List Comprehension](https://youtu.be/TbcEqkabAWU?t=3239)
 * [Lesson 18 - Solving programming challenges](https://youtu.be/TbcEqkabAWU?t=4142)
@@ -38,6 +37,7 @@ Python is a high-level interpreted programming language whose philosophy emphasi
 * [Lesson 22 - File Management](https://youtu.be/TbcEqkabAWU?t=15524)
 * [Lesson 23 - Regular Expressions](https://youtu.be/TbcEqkabAWU?t=19762)
 * [Lesson 24 - Package Handling](https://youtu.be/TbcEqkabAWU?t=24010)
+* [Next steps](https://youtu.be/Kp4Mvapo5kc?t=36390)
 
 ### Introduction
 ---
