@@ -1,4 +1,4 @@
-# calculadora
+# calculadora en Python
 
 user1 = input("1 Numero")
 print("Tu Numero es " + user1)
