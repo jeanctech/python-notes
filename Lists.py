@@ -1,61 +1,97 @@
-#Listas en Python
 
-texto = ["uno", "uno", "dos"] #Lista de Texto
+#* Lists - Python
 
-interger = [1, 2, 3] #Lista de interger
+# In Python, a list is a data structure that stores an ordered collection of elements. Here I present to
+# you basic information about how to work with lists in Python:
 
-float = [1,0, 2,0, 3,0] #Lista de float
+#* List Creation:
 
-bool = [True, False, True] #Lista de Boolean
+# You can create lists using `[]` square brackets and separating elements with commas.
 
-lis = list ((1.1, 2.2, 3.3)) #lista de lista
+my_list = [1, 2, 3, 4, 5]
+names = ["Juan", "Ana", "Carlos"]
+mix = [1, "two", True, 3.14]
 
-print(lis) #Imprime la lista con la variable lis
+#* Access to Elements:
 
-rango = list(range(1, 11)) #lista con un inicio y fin
+# You can access the elements of a list using indexes. The indices start from 0.
 
-print(rango) #Imprime la lista de la variable un
+my_list = [10, 20, 30, 40, 50]
+first_item = my_list[0] #10
+second_item = my_list[1] #20
 
-print(len(lis)) #len analiza los numeros de la lista
+# You can also use negative indexes to count from the end of the list.
 
-# print(dir(lis)) #dir analiza el uso del metodo
+last_item = my_list[-1] # 50
 
-print(type(lis)) #Analiza el tipo de metodo
+#* Element Modification:
 
-print(lis[1]) #imprime la posicion de la lista
+# You can modify individual elements of a list using indexes.
 
-print(lis[-1]) #imprime la posicion de la lista inversa
+names = ["Juan", "Ana", "Carlos"]
+names[1] = "Mary"
+print(names) # ["Juan", "Maria", "Carlos"]
 
-print("uno" in texto) #analiza las palabras de una lista
+#* Operations on Lists:
 
-texto [0] = "cero" #Cambia elemento de una lista
+#? Add Elements:
 
-print(texto)
+# - `append()`: Adds an element to the end of the list.
 
-# texto.append("tres") #agrega un elemento de una lista
+names = ["Juan", "Ana", "Carlos"]
+names.append("Luis")
+print(names) # ["Juan", "Ana", "Carlos", "Luis"]
 
-texto.extend(["tres", "cuatro"]) #agrega mas de un elemento en una lista
-print(texto)
+# - `insert()`: Inserts an element at a specific position.
 
-texto.insert(5, "cinco") #insertar posicion y texto en una lista
+names = ["Juan", "Ana", "Carlos"]
+names.insert(1, "Luis")
+print(names) # ["Juan", "Luis", "Ana", "Carlos"]
 
-texto.pop() #Elimina el ultimo elementos de una lista
-print(texto) #Imprime la lista texto
+#? Delete Elements:
 
+# - `remove()`: Removes a specific element by value.
 
-texto.pop(1) #Elimina el ultimo elementos de una lista
-print(texto) #Imprime la lista texto
+names = ["Juan", "Ana", "Carlos"]
+names.remove("Ana")
+print(names) # ["Juan", "Carlos"]
 
+# - `pop()`: Removes an element at a specific position and returns that element.
 
-texto.remove("tres") #Eliminar todos los elementos de una lista
-print(texto) #Imprime los elementos de la lista
+names = ["Juan", "Ana", "Carlos"]
+deleted_element = names.pop(1)
+print(deleted_element) # "Ana"
+print(names) # ["Juan", "Carlos"]
 
-texto.sort() #Ordena alfabenticamente la lista
-print(texto) #imprime la lista
+#* Length of a List:
 
-texto.sort(reverse=True) #Ordena alfabenticamente de reversa la lista
-print(texto) #imprime la lista
+# You can get the length of a list using the `len()` function.
 
-print(texto.index('dos')) #analiza el index de la lista
+names = ["Juan", "Ana", "Carlos"]
+length = len(names) #3
 
-print(texto.count('dos')) #cuenta el index de la lista
+#? List Slicing:
+
+# You can get portions of a list using slicing.
+
+my_list = [1, 2, 3, 4, 5]
+portion = my_list[1:4] # [2, 3, 4]
+
+#? List Methods:
+
+# Python provides several built-in methods for working with lists. Some examples:
+
+my_list = [3, 1, 4, 1, 5, 9, 2]
+
+# Sort the list
+my_list.sort() # [1, 1, 2, 3, 4, 5, 9]
+
+# Add items from another list
+my_list.extend([6, 5, 3]) # [1, 1, 2, 3, 4, 5, 9, 6, 5, 3]
+
+# Count occurrences of an element
+count = my_list.count(3) #2
+
+# These are just some basics on how to work with lists in Python. The lists are a versatile and
+# fundamental data structure in programming, and Python provides many tools powerful to manipulate.
+# Experiment and practice to improve your understanding of lists in Python!

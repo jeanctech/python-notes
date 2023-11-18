@@ -1,26 +1,80 @@
-#Cadena de Texto en Python
 
-str = "Hola Mundo" #Variable str
+#* Strings - Python
 
-print(f"Hola {str}") #imprime variable str junto el texto
+# In Python, strings are sequences of characters. Here is information on how working with strings in
+# Python:
 
-#dir(str) - Muestra el uso de cualquier elemento
+#? Chain Creation:
 
-#Metodos
+# You can create strings using single quotes (`'`) or double quotes (`"`). Both ways are equivalents.
 
-print(str.upper()) #Metodo Mayuscula
-print(str.lower()) #Metodo Miniscula
-print(str.swapcase()) #Metodo a 1 letra de cada frase a Miniscula
-print(str.capitalize()) #Metodo a 1 letra de cada frase a Mayuscula
-print(str.replace("Hola", "Hello")) #Metodo reemplazar las frases
-print(str.replace("Hello", "Hola").upper()) #Metodo Con Otro Metodo
-print(str.count("H")) #Metodo Analiza las palabras de la variable
-print(str.startswith("Hola")) #Metodo Analiza las palabras existentes al inicio
-print(str.endswith("Mundo")) #Metodo Analiza las palabras existentes al final
-print(str.split("-")) #Metodo separa las palabras del string
-print(str.find("5")) #Metodo analiza la posicion del string
-print(len(str)) #Metodo analiza las palabras del string
-print(str.index("l")) #Metodo analiza las letras de la frase del string
-print(str.isnumeric()) #Metodo analiza las frases si es numerica
-print(str.isalpha()) #Metodo analiza las frase si es texto
-print(str[2]) #Metodo analiza el texto con la posiones en letra
+simple_string = 'Hello, world!'
+double_string = "Hello, world!"
+
+#? Character Access:
+
+# You can access individual characters in a string using indexes. Note that in Python, indexes start
+# from 0.
+
+message = "Hello"
+first_char = message[0] # 'H'
+second_char = message[1] # 'o'
+
+#? Chain Length:
+
+# You can get the length of a string using the `len()` function.
+
+message = "Hello"
+length = len(message) #4
+
+#? String Concatenation:
+
+# You can concatenate (join) strings using the `+` operator.
+
+greeting = "Hello"
+name = "John"
+full_message = greeting + ", " + name # "Hello, Juan"
+
+#? String Methods:
+
+# Python provides several built-in methods for manipulating strings. Some examples:
+
+message = "hello world"
+
+# Convert to uppercase
+uppercase = message.upper() # "HELLO WORLD"
+
+# Convert to lowercase
+lowercase = message.lower() # "hello world"
+
+# Capitalize the first letter
+capitalized = message.capitalize() # "Hello world"
+
+#Count occurrences of a substring
+count = message.count("o") #2
+
+# Replace part of the string
+replaced = message.replace("world", "friends") # "hello friends"
+
+#* String Formatting:
+
+# There are several ways to format strings in Python, but one of the most common is using f-strings
+# (available as of Python 3.6).
+
+name = "Anna"
+age = 25
+formatted_greeting = f"Hello, {name}. You are {age} years old."
+print(formatted_greeting)
+
+# Output: "Hello, Ana. You are 25 years old."
+
+#* Negative Indices:
+
+# You can use negative indices to count from the end of the string.
+
+message = "Hello"
+last_character = message[-1] # 'a'
+
+# These are just some basics about handling strings in Python. The chains are fundamentals in programming,
+# and Python provides many powerful tools to work with they. Explore and experiment to get the most out of
+# string handling in Python!

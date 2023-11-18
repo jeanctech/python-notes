@@ -1,52 +1,89 @@
-#Variables en Python
 
-name = "nombre" #Variable name con una cadena de texto
+#* Variables - Python
 
-print(name) #imprime Variable name
+# In Python, variables are used to store data. Unlike some languages
+# programming that requires explicit type declarations, Python is a dynamically typed language,
+# meaning that the type of a variable is automatically inferred based on the value it contains.
+# Here is some basic information about variables in Python:
 
-# Forma Correcta de Hacer una Variable en Python
+#? Declaration and Assignment of Variables:
 
-variable_1 = 10
+# In Python, you do not need to declare the type of a variable before using it. You can assign a value to a
+# variable as follows:
 
-print(variable_1)
+#? Assigning a value to a variable
 
-#Case Sensitive
+variable_name = 20 #AssignedValue
 
-book = "Libro" #Variable Mininuscula
-Book = "Libro" #Variable Mayuscula
+#? Examples:
 
-#Multi Variable
+# Integers
+age = 25
 
-x , b = "x" "b" #Variable Multi
-print(x, b) #Imprime Variable Multi
+# Floating point (decimal number)
+price = 19.99
 
-# Reasignacion de Lista
-mi_lista = ['Argentina', 'Buenos Aires']
-pais, provincia = mi_lista
-print (pais)
-print (provincia)
+# Text strings
+name = "John"
 
-#Conversiones - Case
+# Booleans
+is_of_age = True
 
-var_iables = 10 #Snake Case
-print(var_iables) #Imprime la Variable
+#? Naming Conventions:
 
-varIables = 100 #Camel Case
-print(varIables) #Imprime la Variable
+# It is good practice to follow naming conventions to make your code more readable. Some
+# common conventions include:
 
-VarIables = 1000 #Pascal Case
-print(VarIables) #Imprime la Variable
+#
+# - Variables usually have lowercase names.
+# - For compound names, the snake_case convention is used (lowercase words separated by hyphens
+# low).
 
-#Constante - Solo en Mayusculas
+full_name = "Juan Perez"
 
-CONST = "constante"
-PI = 3.1416 #Constante PI
-NAME = name #Constante NAME
+#? Operations with Variables:
 
-#Tipado Dinamico - Reasignar Valores
+# You can perform various operations with variables, depending on their type:
 
-var_uno = 1 #1 Variable
-var_uno = 10 #Modificacion de la 1 Variables
+# Operations with numbers
+result = age + 5
 
-print(var_uno)
+# Concatenation of text strings
+message = "Hello, " + name
 
+# Logical operations with booleans
+is_adult = age >= 18
+
+#? Type of data:
+
+# Python supports several data types, including:
+
+# - **int:** Integers
+# - **float:** Floating point numbers
+# - **str:** Text strings
+# - **bool:** Booleans
+# - **list:** Lists (mutable sequences)
+# - **tuple:** Tuples (immutable sequences)
+# - **dict:** Dictionaries (key-value pairs)
+# - **set:** Sets (unordered collections of single elements)
+
+#? Complete Example:
+
+# Variable declaration and assignment
+name = "Mary"
+age = 30
+height = 1.75
+is_student = False
+
+# Operations with variables
+age_in_ten_years = age + 10
+greeting = "Hello, " + name
+
+# Print results
+print("Name:", name)
+print("Age in ten years:", age_in_ten_years)
+print("Greeting:", greeting)
+
+# These are just basics about variables in Python. As you progress in your learning,
+# you will be able to explore more advanced features and use variables in more complex contexts.
+# Have fun programming in Python!

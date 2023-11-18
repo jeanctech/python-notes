@@ -1,5 +1,6 @@
-#Hola Mundo en Python
 
-a = "Hola Mundo" #Variable a un texto "Hola Mundo"
+#* Hello World - Python
 
-print(a) #Imprime la variable a con el texto "Hola Mundo"
+string = "Hello World" # String variable with a text "Hello World"
+
+print(string) # Print the String variable with the text "Hello World"
