@@ -10,6 +10,7 @@
 Python is a high-level interpreted programming language whose philosophy emphasizes the readability of its code. It is used to develop applications of all types, for example - Instagram, Netflix, Spotify, Panda3D, among others. Python is an interpreted language, which means it directly executes code line by line. If there are errors in the program code, its execution stops. This way, programmers can find errors in the code quickly.
 
 ## Index
+
 * [Introduction](Introduction.py)
 * [Lesson 1 - Configuration](Configuration.py)
 * [Lesson 2 - Hello World](Hello-World.py)
