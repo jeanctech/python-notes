@@ -65,4 +65,4 @@
 # etc.
 
 # With these steps, you should have a functional Python development environment and be ready to start
-# write and run programs in Python. Enjoy programming!
+# write and run programs in Python. Enjoy programming!.
