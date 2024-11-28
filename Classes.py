@@ -96,4 +96,4 @@ cat.make_sound() # Print: Meow!
 # These are some basics on how to work with classes in Python. Classes are
 # fundamentals in Object Oriented Programming - Poo and allow you to organize and structure
 # your code more efficiently and reusable. Practice and experiment to strengthen your
-# skills in using classes in Python!
+# skills in using classes in Python!.
