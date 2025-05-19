@@ -1,80 +1,68 @@
-# Python - Documentation
+# > Python-notes.sh 🚀
 
-[![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://python.org)
-[![FastApi](https://img.shields.io/badge/FastAPI-0.88.0+-00a393?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=101010)](https://fastapi.tiangolo.com)
-[![MongoDb](https://img.shields.io/badge/MongoDB-6.0+-00684A?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=101010)](https://www.mongodb.com)
-[![ChatGpt](https://img.shields.io/badge/ChatGPT-GPT--4-7CF178?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010)](https://platform.openai.com)
+> Learn Python as if you were in the terminal.
+> No frameworks, no black magic — just pure code.
+> `echo "Let's go nerd mode 🧠"`
 
-## What is Python?
+## 📁 ./content
 
-Python is a high-level interpreted programming language whose philosophy emphasizes the readability of its code. It is used to develop applications of all types, for example - Instagram, Netflix, Spotify, Panda3D, among others. Python is an interpreted language, which means it directly executes code line by line. If there are errors in the program code, its execution stops. This way, programmers can find errors in the code quickly.
+* [Day 00 - Introduction](./notes/introduction.py)
+* [Day 01 - Configuration](./notes/configuration.py)
+* [Day 02 - Hello World](./notes/hello-world.py)
+* [Day 03 - Variables](./notes/variables.py)
+* [Day 04 - Operators](./notes/operators.py)
+* [Day 05 - Strings](./notes/strings.py)
+* [Day 06 - Lists](./notes/lists.py)
+* [Day 07 - Tuples](./notes/tuples.py)
+* [Day 08 - Sets](./notes/sets.py)
+* [Day 09 - Dictionaries](./notes/dictionaries.py)
+* [Day 10 - Conditionals](./notes/conditionals.py)
+* [Day 11 - Control Structure](./notes/control-structure.py)
+* [Day 12 - Functions](./notes/functions.py)
+* [Day 13 - Poo](./notes/poo.py)
+* [Day 14 - Inheritance](./notes/inheritance.py)
+* [Day 15 - Classes](./notes/classes.py)
+* [Day 16 - Methods](./notes/methods.py)
+* [Day 17 - Exceptions](./notes/exceptions.py)
+* [Day 18 - Modules](./notes/modules.py)
+* [Day 19 - Dates](./notes/dates.py)
+* [Day 20 - List Comprehension](./notes/list-comprehension.py)
+* [Day 21 - Programming Challenges](./notes/programming-challenges.py)
+* [Day 22 - Lambdas](./notes/lambdas.py)
+* [Day 23 - Higher-Order Functions](./notes/higher-order-functions.py)
+* [Day 24 - Errors Types](./notes/error-types.py)
+* [Day 25 - File Management](./notes/file-management.py)
+* [Day 26 - Regular Expressions](./notes/regular-expressions.py)
+* [Day 27 - Package Management](./notes/package-management.py)
+* [Day 28 - Manager - Pypi](./notes/manager-pypi.py)
+* [Day 29 - File Objects](./notes/files-objects.py)
+* [Day 30 - Conclusions](./notes/conclusions.py)
 
-## Index
+## 🔗 ./resources
 
-* [Introduction](Introduction.py)
-* [Lesson 1 - Configuration](Configuration.py)
-* [Lesson 2 - Hello World](Hello-World.py)
-* [Lesson 3 - Variables](Variables.py)
-* [Lesson 4 - Operators](Operators.py)
-* [Lesson 5 - Strings](Strings.py)
-* [Lesson 6 - Lists](Lists.py)
-* [Lesson 7 - Tuples](Tuples.py)
-* [Lesson 8 - Sets](Sets.py)
-* [Lesson 9 - Dictionaries](Dictionaries.py)
-* [Lesson 10 - Conditionals](Conditionals.py)
-* [Lesson 11 - Control Structure](Control-Structure.py)
-* [Lesson 12 - Functions](Functions.py)
-* [Lesson 13 - Poo](Poo.py)
-* [Lesson 14 - Inheritance](Inheritance.py)
-* [Lesson 15 - Classes](Classes.py)
-* [Lesson 16 - Methods](Methods.py)
-* [Lesson 17 - Exceptions](Exceptions.py)
-* [Lesson 18 - Modules](Modules.py)
-* [Lesson 19 - Dates](Dates.py)
-* [Lesson 20 - List Comprehension](List-Comprehension.py)
-* [Lesson 21 - Programming Challenges](Programming-Challenges.py)
-* [Lesson 22 - Lambdas](Lambdas.py)
-* [Lesson 23 - Higher-Order Functions](Higher-Order-Functions.py)
-* [Lesson 24 - Errors Types](Error-Types.py)
-* [Lesson 25 - File Management](File-Management.py)
-* [Lesson 26 - Regular Expressions](Regular-Expressions.py)
-* [Lesson 27 - Package Management](Package-Management.py)
-* [Lesson 28 - Manager - Pypi](Manager-Pypi.py)
-* [Lesson 29 - File Objects](Files-Objects.py)
-* [Lesson 30 - Conclusions](Conclusions.py)
-* [Next Steps](Next-Steps.py)
+* [Official Python](https://www.python.org/)
+* [Manual in Spanish](https://docs.python.org/es/3/tutorial/index.html)
+* [30 Days of Python](https://github.com/Asabeneh/30-Days-Of-Python)
+* [Game to learn Python](https://www.codex.io/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [FastApi](https://fastapi.tiangolo.com/es/)
+* [MongoDb](https://www.mongodb.com/)
+* [Deta](https://www.deta.sh/)
 
-## Introduction
+## 🧠 ./notes
 
-It is a multiparadigm programming language, since it partially supports object orientation, imperative programming and, to a lesser extent, functional programming. It is an interpreted, dynamic and cross-platform language. Administered by the Python Software Foundation, it has an open source license, called the Python Software Foundation License.3​ Python is consistently ranked as one of the most popular programming languages
+This repository is like my learning journal.
 
-## Important information and frequently asked questions
+I'm not an expert. It's not an official course. I just documented what I learned.
 
-Currently the course is in process. The basic, intermediate and backend blocks have been started, and that was the initial objective of the project. And after that I don't rule out adding new lessons in the future, but I think that for the moment it can serve as a basis for anyone who wants to start learning this language.
+I might add more in the future if I get even more advanced with Python.
 
-* As soon as the course continues, I will update the repository and notify the networks.
-Thank you very much for all the support shown!
+## 🌟 ./support
 
-## Links of interest
+If it was helpful or you liked it, please leave a star.
+That motivates me more than a cup of coffee ☕✨
 
-* [Python Official Website](https://www.python.org/)
+## 🛸 ./author
 
-* [Official Python Website in Spanish](https://docs.python.org/es/3/tutorial/index.html)
-
-* [30 Days of Python Repository](https://github.com/Asabeneh/30-Days-Of-Python)
-
-* [Codex Game to Learn Python](https://www.codex.io/)
-
-* [Visual Studio Code](https://code.visualstudio.com/) - The editor I am using
-
-* [FastApi](https://fastapi.tiangolo.com/es/) - The framework to create our Backend Api
-
-* [MongoDb](https://www.mongodb.com/) - The database used by our backend
-
-* [Deta](https://www.deta.sh/) - To deploy our Api in the cloud
-
-##
-
-#### You can support my work by "☆Star" the repo or nominate me for a "GitHub Star". Thank you!
-
-[![GitHub Star](https://img.shields.io/badge/GitHub-Nominar_a_star-yellow?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://stars.github.com/nominate/).
+**Author:** `jeanctech`,
+**Style:** `terminal vibes`, functional documentation, no fear of code.
